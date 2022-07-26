@@ -56,13 +56,15 @@ class Mandelbroter():
     def plot_sequential(self):
         df = pd.read_csv(self.file_path + '.csv')
 
-        x_coord = self.header[0]
-        y_coord = self.header[2]
+        x_coord  = self.header[0]
+        y_coord  = self.header[2]
+        interval = self.header[3]
 
-        x = df[x_coord].tolist()
-        y = df[y_coord].tolist()
+        x = df[x_coord].astype("string")
+        y = df[y_coord]
+        i = df[interval]
 
-        plt.bar([str(s) for s in x], y, width=0.25, color='royalblue', zorder=3)
+        plt.bar(x, y, yerr=i, capsize=7, width=0.25, color='royalblue', zorder=3)
 
         # Wrap up
         self.put_essential_labels(xlabel=x_coord, ylabel=y_coord, axis='y')
@@ -71,16 +73,19 @@ class Mandelbroter():
     def plot_parallel(self):
         df = pd.read_csv(self.file_path + '.csv')
         group_header = self.header[0]
-        x_coord = self.header[1]
-        y_coord = self.header[2]
+        x_coord  = self.header[1]
+        y_coord  = self.header[2]
+        interval = self.header[3]
 
         groups = df.groupby(group_header)
 
         for group, _ in groups:
             data = groups.get_group(group).convert_dtypes()
-            x = data[x_coord]
+            x = data[x_coord].astype("string")
             y = data[y_coord]
-            plt.plot([str(s) for s in x], y, label=group, marker='o')
+            i = data[interval]
+            plt.plot(x, y, label=group, marker='o')
+            plt.fill_between(x, (y-i).tolist(), (y+i).tolist(), color='dodgerblue', alpha=0.5)
 
         # Wrap up
         plt.legend(loc='upper right', bbox_to_anchor=(1.2, 1), title=group_header)
@@ -106,7 +111,7 @@ def main():
 
     # Naming
     header = ['Processes', 'Threads', 'Execution Time (s)', 'Confidence Interval']
-    exe_types = ['OMPI', 'OMPI + Pthreads', 'OMPI + OpenMP']
+    exe_types = ['OMPI', 'OMPI + Pthreads', 'OMPI + OMP']
     formated_fnames = ['Triple Spiral Valley']
 
     # Permutate and process
