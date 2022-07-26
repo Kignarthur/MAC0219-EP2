@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <assert.h>
 #include <math.h>
 #include <pthread.h>
 #include <mpi.h>
@@ -185,11 +186,14 @@ void *compute_mandelbrot(void *arguments){
 int main(int argc, char *argv[]){
     init(argc, argv);
 
-    int numtasks, taskid;
-
     struct arg_struct args[NUM_THREADS];
 
-    MPI_Init(&argc, &argv);
+    int numtasks, taskid;
+    int provided, ret;
+
+    ret = MPI_Init_thread(&argc, &argv, MPI_THREAD_MULTIPLE, &provided);
+    assert(ret == 0 && provided == MPI_THREAD_MULTIPLE);
+
     MPI_Comm_size(MPI_COMM_WORLD, &numtasks);
     MPI_Comm_rank(MPI_COMM_WORLD, &taskid);
 
