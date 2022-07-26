@@ -1,0 +1,420 @@
+
+ Performance counter stats for 'mpirun --oversubscribe -np 1 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 1' (15 runs):
+
+         21,474.71 msec task-clock:u              #    0.941 CPUs utilized            ( +-  0.06% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+             4,990      page-faults:u             #  232.021 /sec                     ( +-  0.05% )
+    71,149,198,719      cycles:u                  #    3.308 GHz                      ( +-  0.00% )
+    80,821,676,053      instructions:u            #    1.14  insn per cycle           ( +-  0.00% )
+     9,335,188,653      branches:u                #  434.060 M/sec                    ( +-  0.00% )
+        16,979,051      branch-misses:u           #    0.18% of all branches          ( +-  0.01% )
+
+           22.8309 +- 0.0133 seconds time elapsed  ( +-  0.06% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 1 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 2' (15 runs):
+
+         21,589.78 msec task-clock:u              #    0.942 CPUs utilized            ( +-  0.02% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+             4,989      page-faults:u             #  231.008 /sec                     ( +-  0.04% )
+    71,164,058,546      cycles:u                  #    3.295 GHz                      ( +-  0.00% )
+    80,821,690,067      instructions:u            #    1.14  insn per cycle           ( +-  0.00% )
+     9,335,192,480      branches:u                #  432.251 M/sec                    ( +-  0.00% )
+        16,980,497      branch-misses:u           #    0.18% of all branches          ( +-  0.00% )
+
+          22.92739 +- 0.00501 seconds time elapsed  ( +-  0.02% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 1 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 4' (15 runs):
+
+         21,585.90 msec task-clock:u              #    0.942 CPUs utilized            ( +-  0.02% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+             4,978      page-faults:u             #  230.524 /sec                     ( +-  0.02% )
+    71,163,318,445      cycles:u                  #    3.295 GHz                      ( +-  0.00% )
+    80,821,693,306      instructions:u            #    1.14  insn per cycle           ( +-  0.00% )
+     9,335,193,159      branches:u                #  432.300 M/sec                    ( +-  0.00% )
+        16,981,604      branch-misses:u           #    0.18% of all branches          ( +-  0.00% )
+
+          22.92337 +- 0.00580 seconds time elapsed  ( +-  0.03% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 1 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 8' (15 runs):
+
+         21,407.54 msec task-clock:u              #    0.939 CPUs utilized            ( +-  0.20% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+             4,988      page-faults:u             #  232.399 /sec                     ( +-  0.04% )
+    71,144,680,961      cycles:u                  #    3.315 GHz                      ( +-  0.01% )
+    80,821,707,413      instructions:u            #    1.14  insn per cycle           ( +-  0.00% )
+     9,335,195,961      branches:u                #  434.942 M/sec                    ( +-  0.00% )
+        16,976,943      branch-misses:u           #    0.18% of all branches          ( +-  0.00% )
+
+           22.7878 +- 0.0491 seconds time elapsed  ( +-  0.22% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 1 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 16' (15 runs):
+
+         21,439.71 msec task-clock:u              #    0.941 CPUs utilized            ( +-  0.09% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+             5,018      page-faults:u             #  233.825 /sec                     ( +-  0.04% )
+    71,150,091,737      cycles:u                  #    3.315 GHz                      ( +-  0.00% )
+    80,821,747,239      instructions:u            #    1.14  insn per cycle           ( +-  0.00% )
+     9,335,206,078      branches:u                #  434.995 M/sec                    ( +-  0.00% )
+        16,977,344      branch-misses:u           #    0.18% of all branches          ( +-  0.00% )
+
+           22.7755 +- 0.0208 seconds time elapsed  ( +-  0.09% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 1 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 32' (15 runs):
+
+         21,382.28 msec task-clock:u              #    0.940 CPUs utilized            ( +-  0.04% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+             5,037      page-faults:u             #  235.039 /sec                     ( +-  0.03% )
+    71,144,831,957      cycles:u                  #    3.320 GHz                      ( +-  0.00% )
+    80,821,820,728      instructions:u            #    1.14  insn per cycle           ( +-  0.00% )
+     9,335,224,632      branches:u                #  435.605 M/sec                    ( +-  0.00% )
+        16,980,799      branch-misses:u           #    0.18% of all branches          ( +-  0.00% )
+
+          22.75276 +- 0.00767 seconds time elapsed  ( +-  0.03% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 8 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 1' (15 runs):
+
+         26,030.77 msec task-clock:u              #    3.282 CPUs utilized            ( +-  0.14% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            15,581      page-faults:u             #  602.817 /sec                     ( +-  0.06% )
+    71,852,736,021      cycles:u                  #    2.780 GHz                      ( +-  0.00% )
+    82,169,431,087      instructions:u            #    1.14  insn per cycle           ( +-  0.00% )
+     9,607,771,026      branches:u                #  371.717 M/sec                    ( +-  0.00% )
+        21,353,728      branch-misses:u           #    0.22% of all branches          ( +-  0.02% )
+
+            7.9325 +- 0.0147 seconds time elapsed  ( +-  0.18% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 8 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 2' (15 runs):
+
+         26,069.74 msec task-clock:u              #    3.310 CPUs utilized            ( +-  0.12% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            15,593      page-faults:u             #  598.610 /sec                     ( +-  0.03% )
+    72,494,217,465      cycles:u                  #    2.783 GHz                      ( +-  0.01% )
+    82,196,559,500      instructions:u            #    1.13  insn per cycle           ( +-  0.00% )
+     9,615,713,958      branches:u                #  369.144 M/sec                    ( +-  0.00% )
+        21,329,438      branch-misses:u           #    0.22% of all branches          ( +-  0.01% )
+
+            7.8752 +- 0.0141 seconds time elapsed  ( +-  0.18% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 8 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 4' (15 runs):
+
+         26,597.49 msec task-clock:u              #    3.335 CPUs utilized            ( +-  0.12% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            15,650      page-faults:u             #  590.853 /sec                     ( +-  0.05% )
+    73,591,878,914      cycles:u                  #    2.778 GHz                      ( +-  0.02% )
+    82,249,697,666      instructions:u            #    1.12  insn per cycle           ( +-  0.00% )
+     9,630,844,200      branches:u                #  363.605 M/sec                    ( +-  0.00% )
+        21,325,252      branch-misses:u           #    0.22% of all branches          ( +-  0.02% )
+
+           7.97516 +- 0.00972 seconds time elapsed  ( +-  0.12% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 8 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 8' (15 runs):
+
+         25,980.40 msec task-clock:u              #    3.306 CPUs utilized            ( +-  0.09% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            15,700      page-faults:u             #  604.989 /sec                     ( +-  0.03% )
+    71,830,775,400      cycles:u                  #    2.768 GHz                      ( +-  0.00% )
+    82,165,288,575      instructions:u            #    1.14  insn per cycle           ( +-  0.00% )
+     9,606,738,316      branches:u                #  370.190 M/sec                    ( +-  0.00% )
+        21,337,010      branch-misses:u           #    0.22% of all branches          ( +-  0.02% )
+
+           7.85789 +- 0.00842 seconds time elapsed  ( +-  0.11% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 8 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 16' (15 runs):
+
+         25,978.53 msec task-clock:u              #    3.323 CPUs utilized            ( +-  0.12% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            15,849      page-faults:u             #  613.203 /sec                     ( +-  0.03% )
+    71,831,847,545      cycles:u                  #    2.779 GHz                      ( +-  0.00% )
+    82,166,533,132      instructions:u            #    1.14  insn per cycle           ( +-  0.00% )
+     9,607,059,325      branches:u                #  371.700 M/sec                    ( +-  0.00% )
+        21,358,424      branch-misses:u           #    0.22% of all branches          ( +-  0.01% )
+
+           7.81794 +- 0.00824 seconds time elapsed  ( +-  0.11% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 8 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 32' (15 runs):
+
+         25,996.57 msec task-clock:u              #    3.311 CPUs utilized            ( +-  0.09% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            16,152      page-faults:u             #  623.200 /sec                     ( +-  0.05% )
+    71,830,961,200      cycles:u                  #    2.771 GHz                      ( +-  0.00% )
+    82,163,373,949      instructions:u            #    1.14  insn per cycle           ( +-  0.00% )
+     9,606,250,036      branches:u                #  370.642 M/sec                    ( +-  0.00% )
+        21,335,565      branch-misses:u           #    0.22% of all branches          ( +-  0.02% )
+
+            7.8511 +- 0.0117 seconds time elapsed  ( +-  0.15% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 16 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 1' (15 runs):
+
+         28,712.88 msec task-clock:u              #    3.324 CPUs utilized            ( +-  0.99% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            27,955      page-faults:u             #  959.356 /sec                     ( +-  0.04% )
+    72,889,405,787      cycles:u                  #    2.501 GHz                      ( +-  0.01% )
+    83,858,964,471      instructions:u            #    1.15  insn per cycle           ( +-  0.02% )
+     9,922,801,646      branches:u                #  340.529 M/sec                    ( +-  0.00% )
+        26,622,485      branch-misses:u           #    0.27% of all branches          ( +-  0.06% )
+
+            8.6386 +- 0.0731 seconds time elapsed  ( +-  0.85% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 16 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 2' (15 runs):
+
+         29,155.14 msec task-clock:u              #    3.346 CPUs utilized            ( +-  0.96% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            27,952      page-faults:u             #  946.258 /sec                     ( +-  0.03% )
+    74,145,067,382      cycles:u                  #    2.510 GHz                      ( +-  0.03% )
+    84,009,065,550      instructions:u            #    1.13  insn per cycle           ( +-  0.02% )
+     9,940,582,448      branches:u                #  336.518 M/sec                    ( +-  0.00% )
+        26,690,867      branch-misses:u           #    0.27% of all branches          ( +-  0.05% )
+
+            8.7128 +- 0.0713 seconds time elapsed  ( +-  0.82% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 16 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 4' (15 runs):
+
+         29,833.61 msec task-clock:u              #    3.358 CPUs utilized            ( +-  0.94% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            27,996      page-faults:u             #  925.712 /sec                     ( +-  0.02% )
+    76,303,293,602      cycles:u                  #    2.523 GHz                      ( +-  0.03% )
+    84,042,165,560      instructions:u            #    1.10  insn per cycle           ( +-  0.02% )
+     9,969,209,305      branches:u                #  329.641 M/sec                    ( +-  0.00% )
+        26,639,467      branch-misses:u           #    0.27% of all branches          ( +-  0.09% )
+
+            8.8836 +- 0.0833 seconds time elapsed  ( +-  0.94% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 16 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 8' (15 runs):
+
+         31,736.37 msec task-clock:u              #    3.667 CPUs utilized            ( +-  1.05% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            28,164      page-faults:u             #  961.790 /sec                     ( +-  0.03% )
+    72,839,874,574      cycles:u                  #    2.487 GHz                      ( +-  0.01% )
+    83,838,969,468      instructions:u            #    1.15  insn per cycle           ( +-  0.01% )
+     9,920,849,539      branches:u                #  338.793 M/sec                    ( +-  0.00% )
+        26,464,926      branch-misses:u           #    0.27% of all branches          ( +-  0.06% )
+
+            8.6536 +- 0.0836 seconds time elapsed  ( +-  0.97% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 16 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 16' (15 runs):
+
+         28,607.28 msec task-clock:u              #    3.328 CPUs utilized            ( +-  0.97% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            28,447      page-faults:u             #  980.114 /sec                     ( +-  0.03% )
+    72,857,482,967      cycles:u                  #    2.510 GHz                      ( +-  0.01% )
+    83,847,334,850      instructions:u            #    1.15  insn per cycle           ( +-  0.02% )
+     9,919,943,214      branches:u                #  341.782 M/sec                    ( +-  0.00% )
+        26,576,877      branch-misses:u           #    0.27% of all branches          ( +-  0.07% )
+
+            8.5966 +- 0.0676 seconds time elapsed  ( +-  0.79% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 16 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 32' (15 runs):
+
+         28,566.61 msec task-clock:u              #    3.332 CPUs utilized            ( +-  0.99% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            29,011      page-faults:u             #    1.002 K/sec                    ( +-  0.03% )
+    72,891,488,784      cycles:u                  #    2.517 GHz                      ( +-  0.01% )
+    83,905,637,564      instructions:u            #    1.15  insn per cycle           ( +-  0.02% )
+     9,919,977,250      branches:u                #  342.564 M/sec                    ( +-  0.00% )
+        26,525,540      branch-misses:u           #    0.27% of all branches          ( +-  0.08% )
+
+            8.5745 +- 0.0709 seconds time elapsed  ( +-  0.83% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 32 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 1' (15 runs):
+
+         35,633.28 msec task-clock:u              #    3.495 CPUs utilized            ( +-  0.79% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            53,273      page-faults:u             #    1.496 K/sec                    ( +-  0.04% )
+    74,864,883,303      cycles:u                  #    2.103 GHz                      ( +-  0.02% )
+    86,895,823,897      instructions:u            #    1.16  insn per cycle           ( +-  0.00% )
+    10,565,505,321      branches:u                #  296.789 M/sec                    ( +-  0.01% )
+        37,792,430      branch-misses:u           #    0.36% of all branches          ( +-  0.11% )
+
+           10.1969 +- 0.0815 seconds time elapsed  ( +-  0.80% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 32 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 2' (15 runs):
+
+         38,136.04 msec task-clock:u              #    3.634 CPUs utilized            ( +-  0.99% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            53,264      page-faults:u             #    1.444 K/sec                    ( +-  0.04% )
+    77,111,958,922      cycles:u                  #    2.090 GHz                      ( +-  0.07% )
+    87,000,504,434      instructions:u            #    1.13  insn per cycle           ( +-  0.01% )
+    10,595,605,825      branches:u                #  287.241 M/sec                    ( +-  0.01% )
+        37,888,674      branch-misses:u           #    0.36% of all branches          ( +-  0.15% )
+
+           10.4930 +- 0.0941 seconds time elapsed  ( +-  0.90% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 32 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 4' (15 runs):
+
+         39,455.61 msec task-clock:u              #    3.682 CPUs utilized            ( +-  1.05% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            53,377      page-faults:u             #    1.403 K/sec                    ( +-  0.04% )
+    81,101,727,751      cycles:u                  #    2.131 GHz                      ( +-  0.06% )
+    87,196,311,047      instructions:u            #    1.07  insn per cycle           ( +-  0.00% )
+    10,651,406,039      branches:u                #  279.933 M/sec                    ( +-  0.01% )
+        37,823,984      branch-misses:u           #    0.36% of all branches          ( +-  0.10% )
+
+            10.715 +- 0.102 seconds time elapsed  ( +-  0.95% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 32 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 8' (15 runs):
+
+         34,003.34 msec task-clock:u              #    3.344 CPUs utilized            ( +-  1.22% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            53,703      page-faults:u             #    1.511 K/sec                    ( +-  0.04% )
+    74,761,925,004      cycles:u                  #    2.104 GHz                      ( +-  0.01% )
+    86,859,238,954      instructions:u            #    1.16  insn per cycle           ( +-  0.00% )
+    10,556,549,539      branches:u                #  297.067 M/sec                    ( +-  0.00% )
+        37,653,838      branch-misses:u           #    0.36% of all branches          ( +-  0.11% )
+
+            10.170 +- 0.104 seconds time elapsed  ( +-  1.02% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 32 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 16' (15 runs):
+
+         33,647.81 msec task-clock:u              #    3.324 CPUs utilized            ( +-  1.23% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            54,136      page-faults:u             #    1.531 K/sec                    ( +-  0.04% )
+    74,661,075,152      cycles:u                  #    2.112 GHz                      ( +-  0.01% )
+    86,829,695,479      instructions:u            #    1.16  insn per cycle           ( +-  0.00% )
+    10,549,361,472      branches:u                #  298.354 M/sec                    ( +-  0.00% )
+        37,471,672      branch-misses:u           #    0.36% of all branches          ( +-  0.08% )
+
+            10.122 +- 0.107 seconds time elapsed  ( +-  1.05% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 32 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 32' (15 runs):
+
+         33,500.17 msec task-clock:u              #    3.317 CPUs utilized            ( +-  1.25% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+            55,257      page-faults:u             #    1.567 K/sec                    ( +-  0.04% )
+    74,654,866,480      cycles:u                  #    2.117 GHz                      ( +-  0.01% )
+    86,827,977,042      instructions:u            #    1.16  insn per cycle           ( +-  0.00% )
+    10,548,976,346      branches:u                #  299.107 M/sec                    ( +-  0.00% )
+        37,232,762      branch-misses:u           #    0.35% of all branches          ( +-  0.07% )
+
+            10.099 +- 0.108 seconds time elapsed  ( +-  1.07% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 64 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 1' (15 runs):
+
+         53,382.50 msec task-clock:u              #    3.822 CPUs utilized            ( +-  0.55% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+           105,501      page-faults:u             #    2.053 K/sec                    ( +-  0.04% )
+    80,531,807,058      cycles:u                  #    1.567 GHz                      ( +-  0.06% )
+    93,641,410,946      instructions:u            #    1.17  insn per cycle           ( +-  0.01% )
+    11,944,934,228      branches:u                #  232.447 M/sec                    ( +-  0.02% )
+        65,365,472      branch-misses:u           #    0.55% of all branches          ( +-  0.22% )
+
+           13.9680 +- 0.0716 seconds time elapsed  ( +-  0.51% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 64 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 2' (15 runs):
+
+         52,190.18 msec task-clock:u              #    3.682 CPUs utilized            ( +-  0.40% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+           105,410      page-faults:u             #    2.010 K/sec                    ( +-  0.03% )
+    84,183,869,119      cycles:u                  #    1.605 GHz                      ( +-  0.09% )
+    93,683,224,102      instructions:u            #    1.11  insn per cycle           ( +-  0.01% )
+    11,963,903,296      branches:u                #  228.099 M/sec                    ( +-  0.02% )
+        63,091,286      branch-misses:u           #    0.53% of all branches          ( +-  0.21% )
+
+           14.1752 +- 0.0538 seconds time elapsed  ( +-  0.38% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 64 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 4' (15 runs):
+
+         53,550.47 msec task-clock:u              #    3.715 CPUs utilized            ( +-  0.55% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+           105,881      page-faults:u             #    1.961 K/sec                    ( +-  0.03% )
+    92,975,460,892      cycles:u                  #    1.722 GHz                      ( +-  0.11% )
+    94,068,483,826      instructions:u            #    1.02  insn per cycle           ( +-  0.01% )
+    12,075,918,459      branches:u                #  223.668 M/sec                    ( +-  0.01% )
+        63,103,831      branch-misses:u           #    0.52% of all branches          ( +-  0.18% )
+
+           14.4150 +- 0.0756 seconds time elapsed  ( +-  0.52% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 64 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 8' (15 runs):
+
+         48,947.27 msec task-clock:u              #    3.686 CPUs utilized            ( +-  0.27% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+           106,318      page-faults:u             #    2.182 K/sec                    ( +-  0.02% )
+    79,731,992,882      cycles:u                  #    1.637 GHz                      ( +-  0.04% )
+    93,434,579,454      instructions:u            #    1.17  insn per cycle           ( +-  0.01% )
+    11,894,305,703      branches:u                #  244.151 M/sec                    ( +-  0.01% )
+        63,649,889      branch-misses:u           #    0.54% of all branches          ( +-  0.16% )
+
+           13.2799 +- 0.0332 seconds time elapsed  ( +-  0.25% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 64 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 16' (15 runs):
+
+         48,945.82 msec task-clock:u              #    3.678 CPUs utilized            ( +-  0.13% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+           107,468      page-faults:u             #    2.206 K/sec                    ( +-  0.03% )
+    79,633,367,089      cycles:u                  #    1.635 GHz                      ( +-  0.04% )
+    93,421,126,149      instructions:u            #    1.17  insn per cycle           ( +-  0.01% )
+    11,891,033,374      branches:u                #  244.104 M/sec                    ( +-  0.01% )
+        63,157,364      branch-misses:u           #    0.53% of all branches          ( +-  0.14% )
+
+           13.3082 +- 0.0228 seconds time elapsed  ( +-  0.17% )
+
+
+ Performance counter stats for 'mpirun --oversubscribe -np 64 ./mandel_ompi_omp -0.188 -0.012 0.554 0.754 4096 32' (15 runs):
+
+         51,647.51 msec task-clock:u              #    3.876 CPUs utilized            ( +-  0.40% )
+                 0      context-switches:u        #    0.000 /sec                   
+                 0      cpu-migrations:u          #    0.000 /sec                   
+           109,258      page-faults:u             #    2.235 K/sec                    ( +-  0.03% )
+    79,593,656,121      cycles:u                  #    1.628 GHz                      ( +-  0.03% )
+    93,394,082,287      instructions:u            #    1.17  insn per cycle           ( +-  0.01% )
+    11,884,454,905      branches:u                #  243.150 M/sec                    ( +-  0.01% )
+        63,277,833      branch-misses:u           #    0.53% of all branches          ( +-  0.13% )
+
+           13.3262 +- 0.0502 seconds time elapsed  ( +-  0.38% )
+
