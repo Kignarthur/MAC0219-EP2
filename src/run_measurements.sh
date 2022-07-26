@@ -5,8 +5,6 @@ set -o xtrace
 IMAGE_SIZE=4096
 MEASUREMENTS=15
 
-MAX_PROCS=64
-
 NAMES=('mandel_ompi_seq' 'mandel_ompi_pth' 'mandel_ompi_omp')
 RESULTS='../data'
 
